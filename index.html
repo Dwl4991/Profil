@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <title>Home</title>
 </head>
 <body>
@@ -18,9 +21,12 @@
             </div>
             <div class="sidebar">
                 <div class="top-sidebar">
-
+                    <h3>Profile</h3>
+                    <div class="close-button">
+                      <img src="./images/fi_x.png" alt="">
+                    </div>
                 </div>
-                <ul class="menu">
+                <ul class="navbar">
                     <li>
                         <a href="">Works</a>
                     </li>
@@ -31,7 +37,9 @@
                         <a href="">Contact</a>
                     </li>
                 </ul>
+                
             </div>
+            <div class="overlay-bg"></div>
             <div class="burger-icon">
                 <img src="./images/menu.png" alt="">
             </div>
@@ -43,19 +51,26 @@
   <div class="main">
     <section class="hero-section">
         <div class="container">
-            <div class="col-lg-6">
-                <div class="hero-content">
-                    <h1>Hi, I am Candra, <br> Frontend Web Developer</h1>
-                    <p>
-                        im student from binar boothcamp, this is my first project. Im newbie, rookie, amateur,new comer, etch....
-                    </p>
-                    <a href="" class="btn btn-success">Download Resume</a>
+            <div class="row">
+                <div class="col-lg-8 col-md-6 left-content">
+                    <div class="hero-content">
+                        <h1>Hi, I am Candra, <br> Frontend Web Developer</h1>
+                        <p>
+                            im student from binar boothcamp, this is my first project. <br> Im newbie, rookie, amateur,new comer, etch....
+                        </p>
+                        <a href="" class="btn btn-success">Download Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 right-content">
+                    <div class="hero-thumbnaill">
+                        <img src="./images/gw.jpg" alt="">
+                    </div>
                 </div>
             </div>
+            
         </div>
-        <div class="hero-thumbnaill">
-            <img src="./images/IMG_20200315_133213.jpg" alt="">
-        </div>
+       
+        
     </section>
     <section class="fw">
         <div class="container">
@@ -63,19 +78,67 @@
             <div class="row">
                
                 <div class="col-lg-4 col-md-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/Rectangle 30.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Designing Dashboards</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
+                    <div class="card-border">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/Rectangle 30.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Designing Dashboards</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-border">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/Rectangle 30.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Designing Dashboards</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-border">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/Rectangle 30.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Designing Dashboards</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </section>
-  </div>
     
+  </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="sosialmedia">
+            <a href="">
+                <img src="./images/fb.svg" alt="">                
+            </a>
+            <a href="">
+                <img src="./images/insta.svg" alt="">
+            </a>
+            <a href="">
+                <img src="./images/Group.png" alt="">
+            </a>
+            <a href="">
+                <img src="./images/Linkedin.png" alt="">
+            </a>
+            <h5>Copyright ©2020 All rights reserved </h5>
+            </div>
+            
+        </div>
+
+    </footer>
 </body>
 </html>
