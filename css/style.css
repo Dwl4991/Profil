@@ -359,7 +359,7 @@ color: #21243D;
   font-size: 32px;
   line-height: 40px;
   color: #21243D;
-  /* padding: 70px 0; */
+  padding: 70px 0;
 }
 
 .hero-content p {
@@ -372,7 +372,7 @@ color: #21243D;
   padding-right: 0px;
   padding-bottom: 20px;
 }
-.hero-thumbnaill {
+.row {
   flex-direction: column-reverse;
 }
 
