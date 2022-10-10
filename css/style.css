@@ -3,7 +3,7 @@
 } */
 
 .header {
-     /* border: 3px solid green; */
+     /* border: 3px solid black; */
     padding: 15px 150px;
     /* margin: auto; */
     position: fixed;
@@ -12,9 +12,7 @@
     z-index: 9;
 }
 
-.navbar {
-    justify-content: flex-end;
-}
+
 /* .row-container{
     flex-direction: row;
     
