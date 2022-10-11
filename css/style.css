@@ -132,13 +132,12 @@
 .hero-thumbnaill img {
   width: 270px;
   height: 270px;
-  border-radius: 135px;
+  border-radius: 160px;
   /* position: absolute; */
   left: 734px;
   top: 200px;
   object-fit: cover;
-  border: blue;
-  box-shadow: -5px 15px #edf7fa;
+
 }
 
 .fw {
@@ -272,22 +271,22 @@
   .hero-content h1 {
     font-family: 'Heebo';
     font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
     color: #21243D;
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   .hero-content p {
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 27px;
     color: #21243D;
     padding-right: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
 
   .fw {
@@ -378,7 +377,7 @@ body{
     left: 0;
     background: rgba(0, 0, 0, 0.6);
     display: none;
-    z-index: 1;
+    z-index: 0.7;
   }
 
   .overlay-bg.navbar-active {
@@ -391,8 +390,8 @@ body{
   }
 
   .hero-content {
-    padding-top: 30px;
-    padding-right: 15px;
+    padding: 30px 15px 30px 0px;
+    
     text-align: center;
 
   }
@@ -400,8 +399,8 @@ body{
   .hero-content h1 {
     font-family: 'Heebo';
     font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
+    font-weight: 700;
+    font-size: 35px;
     line-height: 40px;
     color: #21243D;
     padding: 10px 0;
