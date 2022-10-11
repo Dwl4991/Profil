@@ -3,13 +3,14 @@
 } */
 
 .header {
-     /* border: 3px solid black; */
-    padding: 15px 150px;
-    /* margin: auto; */
-    position: fixed;
-    width:100%;
-    background: #ffffff;
-    z-index: 9;
+  /* border: 3px solid black; */
+  padding: 15px 150px;
+  width: 100%;
+  /* margin: auto; */
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  z-index: 9;
 }
 
 
@@ -20,360 +21,411 @@
 /* .left-content{
         background-color: #FF6464;
 } */
-.right-content{
-    /* background-color:blue; */
+/* .right-content{
+    background-color:blue;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-}
+} */
 .logo {
-     /* border: 3px solid green; */
-    width: 130px;
-    display: flex;
-    /* background-color: #FF6464; */
-    /* align-items: center; */
-}
-.sidebar {
-    flex: 1;
-    /* background-color: green; */
+  /* border: 3px solid green; */
+  width: 100px;
+  display: flex;
+  /* background-color: #FF6464; */
+  /* align-items: center; */
 }
 
-.top-sidebar{
-    display: none;
+.sidebar {
+  flex: 1;
+  /* background-color: green; */
 }
+
+
 
 .navbar {
-     /* border: 3px solid green; */
-    flex: 1;
-    display: flex;
-    /* align-items: center; */
-    justify-content: flex-end;
-  
+  /* border: 3px solid green; */
+  /* flex: 1;
+    display: flex; */
+  /* align-items: center; */
+  justify-content: flex-end;
+
 }
 
 .navbar a {
-     /* border: 3px solid gray; */
-    /* display: block; */
-    margin: 15px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Heebo';
+  /* border: 3px solid gray; */
+  /* display: block; */
+  margin: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Heebo';
 }
 
 .burger-icon {
-    display: none;
-  }
-.top-sidebar{
-    display: none;
+  display: none;
+}
+
+.top-sidebar {
+  display: none;
 }
 
 .overlay-bg {
-    display: none;
+  display: none;
 }
+
 .hero-section {
-    padding: 150px 150px 100px;
-    background: #FFFFFF;
-    /* position: relative; */
-  }
-
-.hero-content h1 {
-padding: 20px 0;
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-line-height: 60px;
-color: #21243D;
-}
-
-.hero-contet p {
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-
-/* Dark Color */
-
-color: #21243D;
-padding-right: 100px;
-
-}
-
-.hero-content a {
-background: #FF6464;
-border-color: #FF6464;
-border-radius: 2px;
-text-decoration: none;
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
-margin: 20px 0;
-padding: 10px 20px;
-color: #FFFFFF;
-}
-
-.hero-thumbnaill {
-    text-align: center;
-}
-
-.hero-thumbnaill img {
-    width: 270px;
-    height: 270px;
-    border-radius: 50%;
-    position: absolute;
-    left: 734px;
-    top: 200px;
-    object-fit: cover;
-}
-
-.fw {
-    padding: 50px 150px 100px;
-    /* position: absolute;
-    width: 1152px;
-    height: 642px;
-    left: 0px;
-    top: 595px; */
-    background: #21243D;
-
-}
-.fw h1 {
-  
-    font-family: 'Heebo';
-    font-style: normal;
-    font-size: 22px;
-    line-height: 60px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 60px;
-/* identical to box height, or 273% */
-
-
-color: #FFFFFF;
-}
-
-.card {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 10px;
-gap: 10px;
-
-background: #FFFFFF;
-border-radius: 8px;
-}
-.fw img {
-  
-    border-radius: 6px;
-    padding: 20px;
-
-
-border-radius: 9px;
-}
-
-.card-body {
-    padding: 0 20px;
-  }
-  
-  .card-body h5{
-  font-family: 'heebo';
-
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 28px;
-color: #21243D;
-padding-bottom: 5px;
-
-  }
-
-  .card-body p {
-    font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #000000;
-  }
-
-  .card-body a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    height: 47px;
-    background: #FF6464;
-    border-radius: 2px;
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
-
-  .footer {
-    text-align: center;
-    background: #FFFFFF;
-    padding: 50px;
-
-  }
-  .sosialmedia a {
-    text-decoration: none;
-    padding :4px 35px 98px 35px;
-  }
-  .sosialmedia h5 {
-    padding-top: 2%;
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-text-align: center;
-
-/* Dark */
-
-color: #21243D;
-  }
-  
-@media (max-width:991) {
-    body {
-        width: 100%;
-    }
-    .header {
-        width: 100%;
-        padding: 0px 0px;
-    }
-    .hero-section {
-        padding: 120px 30px 50px;
-      }
-    
-      .hero-content {
-        padding-right: 15px;
-      }
-    
-      .hero-content h1 {
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 40px;
-        color: #21243D;
-        padding: 20px 0;
-      }
-    
-      .hero-content p {
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #21243D;
-        padding-right: 0px;
-        padding-bottom: 20px;
-      }
-      .fw {
-        padding: 50px 30px 50px;
-        background: #21243D;
-      }
-    
-      .card-border {
-        margin-bottom: 24px;
-      }
-    
-      
-}
-
-@media (max-width:767px) {
-  
-  .logo{
-    display: non1;
-  }
- .header{
-  padding: 18px 8px;
- }
- .hero-section {
-  padding: 170px 30px 50px;
-  
-}
- .sidebar {
-  position: absolute;
-  width: 180px;
-  height: 100vh;
-  top: 0;
-  right: -180px;
-  padding-top: 20px;
+  padding: 150px 150px 100px;
   background: #FFFFFF;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-  z-index: 9;
-  transition: 1s;
+  /* position: relative; */
 }
-/* .sidebar.navbar-active {
-  right: 0px;
-} */
-.sosialmedia a {
-  text-decoration: none;
-  padding:2%;
-}
-.top-sidebar {
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
-.burger-icon {
-  display: flex;
-  flex: 1;
-  justify-content: flex-end;
-  align-items: center;
-}
-.burger-icon img {
-  width: 30px;
-}
-.navbar {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-}
-.balik{
-  display: flex;
-  flex-direction: column-reverse;
-}
-.hero-content {
-  padding-top: 30px;
-  padding-right: 15px;
-  text-align: center;
 
+.balik {
+  display: flex;
 }
+
 .hero-content h1 {
   font-family: 'Heebo';
   font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
   color: #21243D;
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
-.hero-content p {
+.hero-contet p {
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+
+  /* Dark Color */
+
   color: #21243D;
-  padding-right: 0px;
-  padding-bottom: 20px;
+  padding-right: 100px;
+
 }
-.row {
-  flex-direction: column-reverse;
+
+.hero-content a {
+  background: #FF6464;
+  border-color: #FF6464;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  color: #FFFFFF;
 }
+
+.hero-thumbnaill {
+  text-align: center;
+}
+
+.hero-thumbnaill img {
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  /* position: absolute; */
+  left: 734px;
+  top: 200px;
+  object-fit: cover;
+  border: blue;
+  box-shadow: -5px 15px #edf7fa;
+}
+
+.fw {
+  padding: 50px 150px 100px;
+  /* position: absolute;
+    width: 1152px;
+    height: 642px;
+    left: 0px;
+    top: 595px; */
+  background: #21243D;
+
+}
+
+.fw h1 {
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-size: 22px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  /* identical to box height, or 273% */
+
+
+  color: #FFFFFF;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.fw img {
+
+  border-radius: 6px;
+  padding: 20px;
+
+
+}
+
+.card-body {
+  padding: 0 20px;
+}
+
+.card-body h5 {
+  font-family: 'heebo';
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  color: #21243D;
+  padding-bottom: 5px;
+
+}
+
+.card-body p {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.card-body a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer {
+  text-align: center;
+  background: #FFFFFF;
+  padding: 50px;
+
+}
+
+.sosialmedia a {
+  text-decoration: none;
+  padding: 4px 35px 98px 35px;
+}
+
+.sosialmedia h5 {
+  padding-top: 2%;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Dark */
+
+  color: #21243D;
+}
+
+@media (max-width:991px) {
+  body {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    padding: 18px 0px;
+  }
+
+  .hero-section {
+    padding: 120px 20px 30px 20px;
+  }
+
+  .hero-content {
+    padding-right: 15px;
+  }
+
+  .hero-content h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #21243D;
+    padding: 20px 0;
+  }
+
+  .hero-content p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .fw {
+    padding: 50px 30px 50px;
+    background: #21243D;
+  }
+
+  .card-border {
+    margin-bottom: 24px;
+  }
+
+
+}
+
+@media (max-width:767px) {
+body{
+  width: 100%;
+}
+  .logo {
+    display: none;
+  }
+
+  .header {
+    padding: 18px 8px;
+  }
+
+ 
+
+  .sidebar {
+    position: absolute;
+    width: 180px;
+    height: 100vh;
+    top: 0;
+    right: -180px;
+    padding-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    z-index: 9;
+    transition: 1s;
+  }
+
+  .sidebar.navbar-active {
+  right: 0px;
+}
+
+
+  .top-sidebar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+  }
+
+  .burger-icon {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .burger-icon img {
+    width: 30px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .balik {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .navbar li {
+    padding-top: 20px;
+  }
+
+  .navbar a {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .overlay-bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    z-index: 1;
+  }
+
+  .overlay-bg.navbar-active {
+    display: block;
+  }
+
+  .hero-section {
+    padding: 70px 30px 50px;
+
+  }
+
+  .hero-content {
+    padding-top: 30px;
+    padding-right: 15px;
+    text-align: center;
+
+  }
+
+  .hero-content h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #21243D;
+    padding: 10px 0;
+  }
+
+  .hero-content p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .hero-thumbnaill {
+    flex-direction: column-reverse;
+  }
+
+
+
+  .sosialmedia a {
+    text-decoration: none;
+    padding: 2%;
+  }
 
 }
